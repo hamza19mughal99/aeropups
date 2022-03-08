@@ -4,24 +4,93 @@ import Countdown from 'react-countdown';
 
 const About = () => {
     const renderer = ({ hours, minutes, seconds }) => {
+        var num = hours;
+        var digits = num.toString().split('');
+        var hourDigits = digits.map(Number)
+
+        var num = minutes;
+        var digits = num.toString().split('');
+        var minDigits = digits.map(Number)
+
+        var num = seconds;
+        var digits = num.toString().split('');
+        var secDigits = digits.map(Number)
+
+
+        let hourCheck;
+        if (hourDigits.length === 1) {
+            hourCheck = (
+                <>
+                    <span>0</span>
+                    <span>{hourDigits[0]}</span>
+                </>
+            )
+        }
+        else {
+            hourCheck = (
+                <>
+                    <span>{hourDigits[0]}</span>
+                    <span>{hourDigits[1]}</span>
+                </>
+            )
+        }
+
+        let minCheck;
+        if (minDigits.length === 1) {
+            minCheck = (
+                <>
+                    <span>0</span>
+                    <span>{minDigits[0]}</span>
+                </>
+            )
+        }
+        else {
+            minCheck = (
+                <>
+                    <span>{minDigits[0]}</span>
+                    <span>{minDigits[1]}</span>
+                </>
+            )
+        }
+
+
+        let secCheck;
+        if (secDigits.length === 1) {
+            secCheck = (
+                <>
+                    <span>0</span>
+                    <span>{secDigits[0]}</span>
+                </>
+            )
+        }
+        else {
+            secCheck = (
+                <>
+                    <span>{secDigits[0]}</span>
+                    <span>{secDigits[1]}</span>
+                </>
+            )
+        }
+
+
         return (
             <div className={'count_down'}>
                 <ul className='p-0'>
                     <li>
                         <div className={'d-flex justify-content-center'}>
-                            <span>{hours}</span>
+                            {hourCheck}
                         </div>
                         <p>HOURS</p>
                     </li>
                     <li>
                         <div className={'d-flex justify-content-center'}>
-                            <span>{minutes}</span>
+                            {minCheck}
                         </div>
                         <p>MINUTES</p>
                     </li>
                     <li>
                         <div className={'d-flex justify-content-center'}>
-                            <span>{seconds}</span>
+                         {secCheck}
                         </div>
                         <p>SECONDS</p>
                     </li>
