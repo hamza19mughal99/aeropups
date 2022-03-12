@@ -6,17 +6,16 @@ import Youtube from "../../images/youtube.png";
 import Twitter from "../../images/twitter.png";
 import "../../App.css";
 
-const Footer = () => {
+const Footer = ({whitePaper, about, flight, team}) => {
     return (
-        <footer>
+        <footer style={{marginTop: '50px'}}>
             <div className="text-center">
                 <img className={'footer_logo'} src={mainLogo} alt={'footer_logo'} />
                 <div className="footer_links">
-                    <h5>aBOUT</h5>
-                    <h5>WHITE PAPER</h5>
-                    <h5>FLIGHT PLAN</h5>
-                    <h5>TEAM</h5>
-                    <h5>FaQ</h5>
+                    <h5 onClick={about} >aBOUT</h5>
+                    <h5 onClick={whitePaper} >WHITE papER</h5>
+                    <h5 onClick={flight} >FLIGHT pLaN</h5>
+                    <h5 onClick={team}>TEaM</h5>
                 </div>
                 <div className="subscribe">
                     <p>Subscribe to get the updates</p>

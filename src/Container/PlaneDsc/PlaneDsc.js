@@ -22,13 +22,12 @@ const PlaneDsc = () => {
                     </div>
                 </div>
                 <div className="col-md-6 plane_desc">
-                    <h4>WHAT IS AEROPUPS </h4>
-                    <p>AeroPups is an NFT project that will use 100% of the mint funds to lease aircraft across the U.S.
-                        and use the profit to massively benefit the AeroPups community for a lifetime.</p>
+                    <h4>WHaT IS aEROpUpS </h4>
+                    <p>AeroPups is an NFT project that will use 100% of the mint funds to purchase modern aircraft and lease them across the U.S.</p>
                 </div>
             </div>
 
-            <div className="row plane_dsc_row">
+            <div className="row plane_dsc_row2">
                 <div className="col-md-5 plane_desc2">
                     <h4>HOW dOES IT WORK? </h4>
                     <p>Modern aircraft are highly sought after for many reasons, including their safety, modernity, and
@@ -44,8 +43,11 @@ const PlaneDsc = () => {
                         <img data-aos="fade-left" data-aos-duration="2000" src={plane2} alt={'plane2'} />
                     </div>
                 </div>
-
             </div>
+            
+            
+
+
             <div className="row plane_dsc_row">
                 <div className="col-md-4 d-flex justify-content-center align-items-center">
                     <div className="plane_img">
@@ -61,19 +63,14 @@ const PlaneDsc = () => {
                 </div>
             </div>
 
-            <div className="row plane_dsc_row">
-                <div className="col-md-5 plane_desc2">
+            <div className="row plane_dsc_row2">
+                <div className="col-md-6 plane_desc2">
                     <h4>HOW WE addRESS THE RISKS </h4>
-
-                    <p>AeroPups is a lifelong project so future proofing is essential. There will be 10,000 NFTs
-                        released,
-                        and these funds will be allocated to high-risk, high-reward aircraft as well as newer aircraft
-                        with
-                        fewer major maintenance needs. Through this balance we will have the ideal ROI for AeroPups
-                        holders.
-                        Every aircraft purchased will have a thorough pre-purchase inspection; the team has 12 years
-                        of flying experience which ensures the best decisions possible will be made when evaluating an
-                        aircraft.</p>
+                    <p>AeroPups is a lifelong project so future proofing is essential.
+                        Diversifying and growing the aircraft fleet will ensure stability within the project.
+                        The mission is to purchase newer aircraft with fewer maintenance needs. Every aircraft purchased
+                        will have a thorough pre-purchase inspection;
+                        the team has 12 years of flying experience which ensures the best decisions possible will be made when evaluating an aircraft.</p>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center">
                     <div className="plane_img">
@@ -89,25 +86,25 @@ const PlaneDsc = () => {
                     </div>
                 </div>
                 <div className="col-md-6 plane_desc">
-                    <h4>WHY AEROPUPS? </h4>
+                    <h4>WHY aEROpUpS? </h4>
 
-                    <p>AeroPups will serve as a foundation of NFTs in business for decades. Right now,
-                        there is no way for thousands of people to come together to start a business in a
-                        community environment while seeing everything the company is doing in real time. NFTs change
-                        everything.</p>
+                    <p>It is our mission to build a community that everybody is happy to be a part of.
+                        Every holder will receive AeroDrops, meaning surprises often! We will also invite as many
+                        holders as possible to fly with us if they’re up for an adventure! We are committed to
+                        working on this project forever; it’s our hope that our community will want to pass the
+                        AeroPups to the next generation of collectors.</p>
                 </div>
             </div>
 
-            <div className="row plane_dsc_row">
+            <div className="row plane_dsc_row2">
                 <div className="col-md-5 plane_desc2">
-                    <h4>THE FUTURE OF AEROPUPS </h4>
+                    <h4>THE FUTURE OF aEROpUpS </h4>
 
-                    <p>Beyond the initial 10,000 NFT launch, we will allocate 50% of revenue to expansion.
-                        Through this we can grow our fleet, thus increasing the revenue of the company and
-                        ultimately value back to AeroPups holders. We will plan to launch a V2 and V3 in 2023
-                        when expanding into larger charter aircraft to diversify our fleet. The NFT art is also
-                        a huge consideration for us; NFTs started as art and collectables,
-                        and we want to carry on the tradition to bring massive value to our holders forever. </p>
+                    <p>Beyond the initial 10,000 NFT launch, we will allocate a large portion of revenue to expansion.
+                        Through this we can grow our fleet, thus increasing the revenue and scalability of the company.
+                        We will plan to launch a V2 and V3 in 2023/2024 when expanding into larger charter aircraft to diversify our fleet.
+                        The NFT art is also very important to us; NFTs started as art and collectables,
+                        and we want to carry on the tradition to bring massive value to our holders forever.</p>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center align-items-center">
                     <div className="plane_img">

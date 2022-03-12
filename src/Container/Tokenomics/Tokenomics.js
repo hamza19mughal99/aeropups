@@ -29,53 +29,38 @@ const Tokenomics = () => {
                                     <p>400:</p>
                                 </div>
                                 <div className="col-md-10 col-8">
-                                    <p>VIP with future profit shared +
-                                        Airshow meet and greets</p>
+                                    <p>VIP Exclusive AeroDrops + Airshow meet and greets </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 token_col">
                             <div className="row justify-content-center">
-                                <div className="col-md-1 col-1">
+                                <div className="col-md-1 col-1 mr-2">
                                     <p>5:</p>
                                 </div>
                                 <div className="col-md-10 col-8 p-0">
-                                    <p>A flight with Aero and
-                                        the team</p>
+                                    <p>A flight with Aero and the team + AeroDrops</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-2">
                             <div className="row justify-content-center">
-                                <div className="col-md-1 col-1">
+                                <div className="col-md-1 col-1 mr-2">
                                     <p>9595:</p>
                                 </div>
-                                <div className="col-md-10 col-8 p-0">
-                                    <p>Future profit shared</p>
+                                <div className="col-md-8 col-8 p-0">
+                                    <p>AeroDrops</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <hr className="divider"/>
                     <div className="tokenomics_dsc">
-                        <p>All 10,000 split 50% of Airborne profit, with the other 50% going directly to
-                            purchasing
-                            more aircraft</p>
-                        <p>All Airborne tokens receive some of the future drops aircraft profit,
-                            the 1st 400 minted will be VIP, with a larger portion of future profit.
-                            VIP tokens will be the art of Aero. We want to give the first holders the absolute
-                            most value for quite literally making AeroPups takeoff,
-                            but every holder will be amazed with the Pup they own!</p>
+                        <p>The 1st 400 minted will be VIP having the most access to flights and AeroDrops.
+                            VIP tokens will be the art of Aero. </p>
 
-                        <p className={'token_para'}> We'll be working with an attorney after the VIP tokens sell out when the DAO is
-                            formed
-                            so that there is a liquidity pool so that AeroPups leads to opportunities for
-                            everyone.
-                            Some projects have used their social token and a liquidity pool to accomplish this
-                            goal.
-                            This is no way investment advice or the guarantee of profit. As we form the DAO with
-                            attorneys,
-                            we'll be able to refine this language. All of this may be subject to change.
+                        <p className={'token_para'}> We'll be working with an attorney after the VIP tokens sell to refine this language.
+                            This is no way investment advice or the guarantee of profit. All of this may be subject to change.
                         </p>
                     </div>
 
